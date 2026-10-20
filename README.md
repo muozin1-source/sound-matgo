@@ -14,18 +14,6 @@ node preview.cjs
 
 표시된 `http://127.0.0.1:4184/`를 같은 PC의 브라우저로 엽니다. 이 주소는 아이폰 접속용이 아닙니다.
 
-## GitHub Pages 설치·배포
-
-1. ZIP을 압축 해제합니다.
-2. GitHub에서 공개 저장소를 새로 만듭니다. 예: `sound-matgo`.
-3. **폴더 안의 내용물 전체**를 업로드합니다. `index.html`과 `app.js`가 저장소 최상위에 있어야 합니다. ZIP 자체나 바깥 폴더를 중첩해 올리지 마세요.
-4. `audio`, `cards`, `engine`, `licenses` 등의 폴더 구조도 그대로 유지합니다. 브라우저 업로드에서 폴더 전체 내용물을 끌어 놓거나 GitHub Desktop으로 한 번에 올릴 수 있습니다. 파일이 많아 웹 업로드 제한에 걸리면 폴더별로 나누어 올리거나 GitHub Desktop을 이용하세요.
-5. Settings → Pages → Source: **Deploy from a branch** → Branch: **main**, 폴더: **/(root)** → Save.
-6. 배포 완료 후 Pages 설정에 표시되는 실제 사이트 주소를 아이폰 Safari에서 엽니다. 예: `https://사용자아이디.github.io/sound-matgo/`.
-7. Safari 공유 메뉴의 ‘홈 화면에 추가’를 이용할 수 있습니다. 오프라인 전용 앱은 아니며 새로 열 때 인터넷 연결을 준비하세요.
-
-이미 배포했다면 같은 저장소에 수정된 파일을 같은 경로로 올리고 Commit합니다. GitHub Pages 배포 완료 후 새로고침하세요. 기존 ‘빈자리 카드’와는 별개의 게임이므로 새 저장소를 권장합니다.
-
 ## 플레이
 
 1. ‘게임 시작’ 또는 ‘이어하기’를 실행합니다. 이 동작으로 iPhone의 오디오 재생도 시작합니다.
@@ -46,13 +34,6 @@ node preview.cjs
 
 화면과 VoiceOver 조작은 새로 작성했습니다. 3인 고스톱, 온라인 사람 간 대전, 계정, 서버 저장은 포함하지 않습니다. 정산은 점수로 표시합니다.
 
-## 소리와 저장
-
-효과음과 한국어 선언은 사용자가 선택한 `itsent-lab/hwatu` 음원을 사용합니다. 한국어 선언은 **Supertonic 3으로 생성된 AI 합성음성**입니다. 원본 음원에 하이톤 편집을 추가하지 않았습니다. 메뉴에서 전체 음소거, 선언 음성 사용, 효과음·음성 음량을 각각 조절할 수 있습니다. 배경음악은 사용하지 않습니다.
-
-일반 차례는 짧은 효과음과 상태 안내, 고·스톱 및 특수 상황은 선언 음성으로 처리합니다. VoiceOver의 발화 상태를 웹페이지가 자동으로 감지한다고 가정하지 않습니다. 기기에서 두 소리가 겹친다면 메뉴에서 선언 음성을 끄거나 줄일 수 있습니다. 실제 VoiceOver에서 음량·타이밍을 확인해야 합니다.
-
-같은 기기·브라우저의 localStorage에 현재 판·패 선택 진행·손패 자리·소리 설정을 저장합니다. 다른 기기로 동기화하지 않습니다. 비공개 탐색이나 사이트 데이터 삭제 시 사라질 수 있습니다. 같은 저장을 여러 탭에서 동시에 플레이하는 것은 지원하지 않습니다. 저장이 차단되어도 현재 창에서 플레이할 수 있습니다.
 
 ## 접근성·검증
 
@@ -70,10 +51,3 @@ node --test tests/*.test.mjs
 ```
 
 `vendor/engine`의 TypeScript를 Node 내장 타입 제거 기능으로 `engine`의 브라우저 JavaScript로 변환합니다. 생성된 `engine`도 함께 배포하므로 플레이어는 빌드할 필요가 없습니다. 원본 테스트는 참고용 `vendor/tests`에, 이 게임의 실행 가능한 검증은 `tests`에 있습니다.
-
-## 출처
-
-[CREDITS.md](CREDITS.md), `audio/ATTRIBUTION.txt`, `cards/hwatu/ATTRIBUTION.txt`와 `licenses`의 라이선스 문서를 유지해 주세요.
-
-- [원본 프로젝트](https://github.com/itsent-lab/hwatu)
-- [GitHub Pages 공식 배포 안내](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
