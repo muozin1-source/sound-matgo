@@ -1,0 +1,889 @@
+{
+  "repository": "https://github.com/itsent-lab/hwatu",
+  "revision": "c02db44022b456df75c2e131b5e5cdd91d79764f",
+  "allGitBlobHashesVerified": true,
+  "files": [
+    {
+      "source": "apps/web/public/audio/ATTRIBUTION.txt",
+      "local": "audio/ATTRIBUTION.txt",
+      "bytes": 5617,
+      "gitBlobSha": "ec06a23965365aef9107d43d731d79e4bef9efde"
+    },
+    {
+      "source": "apps/web/public/audio/card-contact.mp3",
+      "local": "audio/card-contact.mp3",
+      "bytes": 3549,
+      "gitBlobSha": "6fdb66f76f783ccdbd943c99ee20f66f7f3a9fe5"
+    },
+    {
+      "source": "apps/web/public/audio/card-deal.mp3",
+      "local": "audio/card-deal.mp3",
+      "bytes": 21813,
+      "gitBlobSha": "1626e00872502c3b32ee6a135dd362def284e6b3"
+    },
+    {
+      "source": "apps/web/public/audio/card-slide.mp3",
+      "local": "audio/card-slide.mp3",
+      "bytes": 9602,
+      "gitBlobSha": "6a2f94d82dfcd323ea38e01f4bc4f5f761ffe1de"
+    },
+    {
+      "source": "apps/web/public/audio/effects/autoplay-off.wav",
+      "local": "audio/effects/autoplay-off.wav",
+      "bytes": 5880,
+      "gitBlobSha": "02f0f72ca0883aee1487bb283c5a3453ca93ef45"
+    },
+    {
+      "source": "apps/web/public/audio/effects/autoplay-on.wav",
+      "local": "audio/effects/autoplay-on.wav",
+      "bytes": 12332,
+      "gitBlobSha": "0a818b043280a511edab7a0830d59a2939815b75"
+    },
+    {
+      "source": "apps/web/public/audio/effects/bomb.wav",
+      "local": "audio/effects/bomb.wav",
+      "bytes": 114532,
+      "gitBlobSha": "c37dae2f0381244ff5cb7d78f1e77fdc5d4f999a"
+    },
+    {
+      "source": "apps/web/public/audio/effects/bonus-three.wav",
+      "local": "audio/effects/bonus-three.wav",
+      "bytes": 33008,
+      "gitBlobSha": "88d90f23189e1027e5389c100984a09528049573"
+    },
+    {
+      "source": "apps/web/public/audio/effects/bonus-two.wav",
+      "local": "audio/effects/bonus-two.wav",
+      "bytes": 30472,
+      "gitBlobSha": "7a8962cc497ff3379efaacc708d7522d50c22efb"
+    },
+    {
+      "source": "apps/web/public/audio/effects/cancel.wav",
+      "local": "audio/effects/cancel.wav",
+      "bytes": 6204,
+      "gitBlobSha": "bc355921fa982c7117338ead4a1deec352a5a69e"
+    },
+    {
+      "source": "apps/web/public/audio/effects/chongtong.wav",
+      "local": "audio/effects/chongtong.wav",
+      "bytes": 53220,
+      "gitBlobSha": "2245c0672bbb8251605301c3470a50d05f9abbe7"
+    },
+    {
+      "source": "apps/web/public/audio/effects/deal.wav",
+      "local": "audio/effects/deal.wav",
+      "bytes": 127196,
+      "gitBlobSha": "01ba1efcec5053422a4c5ed5f57b9467e0c86c23"
+    },
+    {
+      "source": "apps/web/public/audio/effects/dealer-human.wav",
+      "local": "audio/effects/dealer-human.wav",
+      "bytes": 28446,
+      "gitBlobSha": "7ed7cc65c457622e9b9fba157402a6259334216f"
+    },
+    {
+      "source": "apps/web/public/audio/effects/dealer-opponent.wav",
+      "local": "audio/effects/dealer-opponent.wav",
+      "bytes": 18730,
+      "gitBlobSha": "6e711631bc22e3429af32e298b465648b0895296"
+    },
+    {
+      "source": "apps/web/public/audio/effects/decision.wav",
+      "local": "audio/effects/decision.wav",
+      "bytes": 43322,
+      "gitBlobSha": "e0d9fcf3ac2af10a6ce11bfa2fdba1c973f71800"
+    },
+    {
+      "source": "apps/web/public/audio/effects/double-ppeok.wav",
+      "local": "audio/effects/double-ppeok.wav",
+      "bytes": 55264,
+      "gitBlobSha": "bc85471dc672a7d4d7ead105836717557af8eef1"
+    },
+    {
+      "source": "apps/web/public/audio/effects/go-high.wav",
+      "local": "audio/effects/go-high.wav",
+      "bytes": 33556,
+      "gitBlobSha": "0a64c500e49c588701549fdbc66743fb64a3eb2e"
+    },
+    {
+      "source": "apps/web/public/audio/effects/go.wav",
+      "local": "audio/effects/go.wav",
+      "bytes": 25608,
+      "gitBlobSha": "4b9a9e0f83e79b6e30466e18ae9e0bd5c52dcd57"
+    },
+    {
+      "source": "apps/web/public/audio/effects/gookjin-animal.wav",
+      "local": "audio/effects/gookjin-animal.wav",
+      "bytes": 107816,
+      "gitBlobSha": "486d3753f697aa82b642044f58179a1017a6977c"
+    },
+    {
+      "source": "apps/web/public/audio/effects/gookjin-double.wav",
+      "local": "audio/effects/gookjin-double.wav",
+      "bytes": 107988,
+      "gitBlobSha": "0d8b451375e92261ed32a12a7ad9ea26f0ef1033"
+    },
+    {
+      "source": "apps/web/public/audio/effects/jjok.wav",
+      "local": "audio/effects/jjok.wav",
+      "bytes": 86272,
+      "gitBlobSha": "74fedd8be6f0fe80af1bb51cf9d0366a93107c06"
+    },
+    {
+      "source": "apps/web/public/audio/effects/lose.wav",
+      "local": "audio/effects/lose.wav",
+      "bytes": 46470,
+      "gitBlobSha": "ebffe43e4592823655636251c7e7186c15da57a8"
+    },
+    {
+      "source": "apps/web/public/audio/effects/mission.wav",
+      "local": "audio/effects/mission.wav",
+      "bytes": 47584,
+      "gitBlobSha": "f8f0916d7c281f1112a365c71b2bd6e5b59f908b"
+    },
+    {
+      "source": "apps/web/public/audio/effects/money-lose.wav",
+      "local": "audio/effects/money-lose.wav",
+      "bytes": 16978,
+      "gitBlobSha": "934d2246c42dfdd75ba49753ac9d940a2486012b"
+    },
+    {
+      "source": "apps/web/public/audio/effects/money-win.wav",
+      "local": "audio/effects/money-win.wav",
+      "bytes": 38080,
+      "gitBlobSha": "f76ebe2d113cdfe13a6fd61ea0bc9c18b01ef80f"
+    },
+    {
+      "source": "apps/web/public/audio/effects/nagari.wav",
+      "local": "audio/effects/nagari.wav",
+      "bytes": 29368,
+      "gitBlobSha": "41088cb9c22b77c2401257200c1a39bbc9663c75"
+    },
+    {
+      "source": "apps/web/public/audio/effects/pee-transfer-three.wav",
+      "local": "audio/effects/pee-transfer-three.wav",
+      "bytes": 81184,
+      "gitBlobSha": "2d1f56b0fdc0d8015996839bc4b28d7eac0070c1"
+    },
+    {
+      "source": "apps/web/public/audio/effects/pee-transfer-two.wav",
+      "local": "audio/effects/pee-transfer-two.wav",
+      "bytes": 40616,
+      "gitBlobSha": "1382d9a68fec9bc818a8446a37b0c591307530ed"
+    },
+    {
+      "source": "apps/web/public/audio/effects/ppeok-capture.wav",
+      "local": "audio/effects/ppeok-capture.wav",
+      "bytes": 44844,
+      "gitBlobSha": "ba165c330cc74c27db150bc53524511cdb29e5cd"
+    },
+    {
+      "source": "apps/web/public/audio/effects/ppeok.wav",
+      "local": "audio/effects/ppeok.wav",
+      "bytes": 55264,
+      "gitBlobSha": "34de107cce2ef889ee31b377c83d830c9c9b12f6"
+    },
+    {
+      "source": "apps/web/public/audio/effects/score.wav",
+      "local": "audio/effects/score.wav",
+      "bytes": 43298,
+      "gitBlobSha": "08e30ea411ba174a3669ecc00692c56e3b5d64e3"
+    },
+    {
+      "source": "apps/web/public/audio/effects/select.wav",
+      "local": "audio/effects/select.wav",
+      "bytes": 171498,
+      "gitBlobSha": "0eaa97e82f3396ea60010c4d6e04a616d3a5224c"
+    },
+    {
+      "source": "apps/web/public/audio/effects/self-ppeok.wav",
+      "local": "audio/effects/self-ppeok.wav",
+      "bytes": 307132,
+      "gitBlobSha": "17a6178ca3eeb44f11de78dd08e6c3a4555570a6"
+    },
+    {
+      "source": "apps/web/public/audio/effects/shake.wav",
+      "local": "audio/effects/shake.wav",
+      "bytes": 243464,
+      "gitBlobSha": "c2cc7df9054e56b126beaf43ced55df4f93d6d1e"
+    },
+    {
+      "source": "apps/web/public/audio/effects/start.wav",
+      "local": "audio/effects/start.wav",
+      "bytes": 28522,
+      "gitBlobSha": "b4773c5750df6449276b04621eb75362803574c4"
+    },
+    {
+      "source": "apps/web/public/audio/effects/stop.wav",
+      "local": "audio/effects/stop.wav",
+      "bytes": 28522,
+      "gitBlobSha": "46cb92dcf1c1cc107e829287550a0013d9e9e329"
+    },
+    {
+      "source": "apps/web/public/audio/effects/sweep.wav",
+      "local": "audio/effects/sweep.wav",
+      "bytes": 230512,
+      "gitBlobSha": "c180bbf21c77f6a62ee911e185b2fabaa7366a8e"
+    },
+    {
+      "source": "apps/web/public/audio/effects/triple-ppeok.wav",
+      "local": "audio/effects/triple-ppeok.wav",
+      "bytes": 94656,
+      "gitBlobSha": "bcf4e9d77f9c1ee6530eb624300633321a564d6e"
+    },
+    {
+      "source": "apps/web/public/audio/effects/ttadak.wav",
+      "local": "audio/effects/ttadak.wav",
+      "bytes": 540444,
+      "gitBlobSha": "83831b544ae932fa397b4150f91f66b136eac338"
+    },
+    {
+      "source": "apps/web/public/audio/effects/undo.wav",
+      "local": "audio/effects/undo.wav",
+      "bytes": 6482,
+      "gitBlobSha": "646506271d6efd821d1b946f3e89ac276dbbb50f"
+    },
+    {
+      "source": "apps/web/public/audio/effects/verification.json",
+      "local": "audio/effects/verification.json",
+      "bytes": 7341,
+      "gitBlobSha": "52a48feef9726d016f3c4840c363882b81447cb3"
+    },
+    {
+      "source": "apps/web/public/audio/effects/win.wav",
+      "local": "audio/effects/win.wav",
+      "bytes": 46470,
+      "gitBlobSha": "3dc9f92f76120700fa8840dbd3437917784b0d94"
+    },
+    {
+      "source": "apps/web/public/audio/verification.json",
+      "local": "audio/verification.json",
+      "bytes": 1990,
+      "gitBlobSha": "1b8a6804dc5a822ccd76d27cc49a00ed856b9791"
+    },
+    {
+      "source": "apps/web/public/audio/voices/dealer-human.wav",
+      "local": "audio/voices/dealer-human.wav",
+      "bytes": 107744,
+      "gitBlobSha": "29fa6118f3b26196272377f2061d725c2396834f"
+    },
+    {
+      "source": "apps/web/public/audio/voices/dealer-opponent.wav",
+      "local": "audio/voices/dealer-opponent.wav",
+      "bytes": 101398,
+      "gitBlobSha": "30551c5f2110c9e479350f860546b3bdce21ffa8"
+    },
+    {
+      "source": "apps/web/public/audio/voices/double-ppeok.wav",
+      "local": "audio/voices/double-ppeok.wav",
+      "bytes": 152008,
+      "gitBlobSha": "e70c99221299fada1fc7f13315d8d98e301cf2e2"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gookjin-animal.wav",
+      "local": "audio/voices/gookjin-animal.wav",
+      "bytes": 124910,
+      "gitBlobSha": "a7951d19eebbc463d81d67d2eef4cec6a859299b"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gookjin-double.wav",
+      "local": "audio/voices/gookjin-double.wav",
+      "bytes": 95216,
+      "gitBlobSha": "cb4b79e60acc6420e6f6026835eaeb33e9dcafe9"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-a-bonus-three.wav",
+      "local": "audio/voices/gostop-computer-a-bonus-three.wav",
+      "bytes": 91476,
+      "gitBlobSha": "0e595ad56b73c58b13a28cfa18865c9894e0f561"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-a-bonus-two.wav",
+      "local": "audio/voices/gostop-computer-a-bonus-two.wav",
+      "bytes": 128172,
+      "gitBlobSha": "03d85d0b11ad7f629636af0acaba856c0f7575c7"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-a-capture.wav",
+      "local": "audio/voices/gostop-computer-a-capture.wav",
+      "bytes": 102432,
+      "gitBlobSha": "b915b3f07f3cce9998bed70c3d7d9f1fdc092386"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-a-go.wav",
+      "local": "audio/voices/gostop-computer-a-go.wav",
+      "bytes": 123888,
+      "gitBlobSha": "f0079b5c7c51887869671e24b90d33866c89be5f"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-a-ppeok-capture.wav",
+      "local": "audio/voices/gostop-computer-a-ppeok-capture.wav",
+      "bytes": 119220,
+      "gitBlobSha": "9885e6203a59039b0b95f6a9e5ec6b6c2cc06b1c"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-a-ppeok.wav",
+      "local": "audio/voices/gostop-computer-a-ppeok.wav",
+      "bytes": 31800,
+      "gitBlobSha": "b1235a8057b710e403afdadb81f21ba5e649488d"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-a-score.wav",
+      "local": "audio/voices/gostop-computer-a-score.wav",
+      "bytes": 108964,
+      "gitBlobSha": "deca8255aafae42d1e1de8ca8baf6b0566c33d81"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-a-self-ppeok.wav",
+      "local": "audio/voices/gostop-computer-a-self-ppeok.wav",
+      "bytes": 138294,
+      "gitBlobSha": "3d1a361f8538479ed1a3c4cc1112fae5a8ad057f"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-a-stop.wav",
+      "local": "audio/voices/gostop-computer-a-stop.wav",
+      "bytes": 111122,
+      "gitBlobSha": "e469f6bee835adb6a4b2671763d1c05ae65f7da8"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-a-sweep.wav",
+      "local": "audio/voices/gostop-computer-a-sweep.wav",
+      "bytes": 150062,
+      "gitBlobSha": "8e678d93a862bcec7ffad3a0544b615855393136"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-a-win.wav",
+      "local": "audio/voices/gostop-computer-a-win.wav",
+      "bytes": 129456,
+      "gitBlobSha": "1283f20230779f0232e8074ce69c2189543d6a67"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-b-bonus-three.wav",
+      "local": "audio/voices/gostop-computer-b-bonus-three.wav",
+      "bytes": 76026,
+      "gitBlobSha": "1cba01c9f5016cd97f5412aa099607622742bbbb"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-b-bonus-two.wav",
+      "local": "audio/voices/gostop-computer-b-bonus-two.wav",
+      "bytes": 92650,
+      "gitBlobSha": "e019788addc27d8aeaf4ec959b5122cb9903f455"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-b-capture.wav",
+      "local": "audio/voices/gostop-computer-b-capture.wav",
+      "bytes": 107142,
+      "gitBlobSha": "955a39ac5a23514d134e11ea628658ac589bd756"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-b-go.wav",
+      "local": "audio/voices/gostop-computer-b-go.wav",
+      "bytes": 103482,
+      "gitBlobSha": "640c4dbd12f0f6e4cd0a3014f925c2cb8278e07f"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-b-ppeok-capture.wav",
+      "local": "audio/voices/gostop-computer-b-ppeok-capture.wav",
+      "bytes": 116754,
+      "gitBlobSha": "7f4f882d54f927213e5c258c63ce81848acecf74"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-b-ppeok.wav",
+      "local": "audio/voices/gostop-computer-b-ppeok.wav",
+      "bytes": 129458,
+      "gitBlobSha": "00f7cea062d9425961e91090094ca659278da8bd"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-b-score.wav",
+      "local": "audio/voices/gostop-computer-b-score.wav",
+      "bytes": 111308,
+      "gitBlobSha": "44646669ce69fa0f10171fd3b6f1af430c584512"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-b-self-ppeok.wav",
+      "local": "audio/voices/gostop-computer-b-self-ppeok.wav",
+      "bytes": 133006,
+      "gitBlobSha": "13d7714780524599b14d8ae80423b94631134548"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-b-stop.wav",
+      "local": "audio/voices/gostop-computer-b-stop.wav",
+      "bytes": 110842,
+      "gitBlobSha": "3b25eeeea79927f0561341d0891fe76e57c6fe18"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-b-sweep.wav",
+      "local": "audio/voices/gostop-computer-b-sweep.wav",
+      "bytes": 117652,
+      "gitBlobSha": "b13816a7f33631f8f5834fb833d7123922bfed1a"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-b-win.wav",
+      "local": "audio/voices/gostop-computer-b-win.wav",
+      "bytes": 140858,
+      "gitBlobSha": "00fe561e92c14ba5e2c414e53a2e8ee703795639"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-c-bonus-three.wav",
+      "local": "audio/voices/gostop-computer-c-bonus-three.wav",
+      "bytes": 105610,
+      "gitBlobSha": "ee53f72f79b299d58b9dd6fe6cf32d22e265c639"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-c-bonus-two.wav",
+      "local": "audio/voices/gostop-computer-c-bonus-two.wav",
+      "bytes": 168642,
+      "gitBlobSha": "7b1375946209705f7e3933bacfd576cf5ed54973"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-c-capture.wav",
+      "local": "audio/voices/gostop-computer-c-capture.wav",
+      "bytes": 191198,
+      "gitBlobSha": "924d5ee0773e493f8924feb65b09027244f37610"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-c-go.wav",
+      "local": "audio/voices/gostop-computer-c-go.wav",
+      "bytes": 126672,
+      "gitBlobSha": "25d9bf201fa55c3e81dfb08c5f071508ef98d76a"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-c-ppeok-capture.wav",
+      "local": "audio/voices/gostop-computer-c-ppeok-capture.wav",
+      "bytes": 177960,
+      "gitBlobSha": "5a58634e2c8f0137ad6598385e775494a2a3f4c5"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-c-ppeok.wav",
+      "local": "audio/voices/gostop-computer-c-ppeok.wav",
+      "bytes": 88610,
+      "gitBlobSha": "8e041d36081580dd421b04b531ec2df02f9be540"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-c-score.wav",
+      "local": "audio/voices/gostop-computer-c-score.wav",
+      "bytes": 178902,
+      "gitBlobSha": "7c446a6a4784f2518ec46c7716fc42a796efa5a6"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-c-self-ppeok.wav",
+      "local": "audio/voices/gostop-computer-c-self-ppeok.wav",
+      "bytes": 169898,
+      "gitBlobSha": "1559cc34ecc61bb11462a143a24e84af06b581f1"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-c-stop.wav",
+      "local": "audio/voices/gostop-computer-c-stop.wav",
+      "bytes": 160686,
+      "gitBlobSha": "9f566ef8b87d7ad7f6839bfc27ef830fd5453c98"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-c-sweep.wav",
+      "local": "audio/voices/gostop-computer-c-sweep.wav",
+      "bytes": 194648,
+      "gitBlobSha": "c7c4b9d42991b3620e67888ea9fa8b518d003ac2"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-c-win.wav",
+      "local": "audio/voices/gostop-computer-c-win.wav",
+      "bytes": 188722,
+      "gitBlobSha": "e31f857fd50782a82e2897f216ccfbdb1a542af2"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-d-bonus-three.wav",
+      "local": "audio/voices/gostop-computer-d-bonus-three.wav",
+      "bytes": 179402,
+      "gitBlobSha": "1ad764c161005bb1336d658ab9317a2bb899275c"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-d-bonus-two.wav",
+      "local": "audio/voices/gostop-computer-d-bonus-two.wav",
+      "bytes": 235876,
+      "gitBlobSha": "1f753766358b5b7617091bd3e30d1fb34d02f079"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-d-capture.wav",
+      "local": "audio/voices/gostop-computer-d-capture.wav",
+      "bytes": 205794,
+      "gitBlobSha": "f57266166a5f467297ea05268d54a4d4427a7f09"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-d-go.wav",
+      "local": "audio/voices/gostop-computer-d-go.wav",
+      "bytes": 172934,
+      "gitBlobSha": "0b20b221e905977f9af8933fe9a61566a436d9c1"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-d-ppeok-capture.wav",
+      "local": "audio/voices/gostop-computer-d-ppeok-capture.wav",
+      "bytes": 208052,
+      "gitBlobSha": "f6062c2ed81c28e11831487e28429c61eeb6e7bd"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-d-ppeok.wav",
+      "local": "audio/voices/gostop-computer-d-ppeok.wav",
+      "bytes": 89612,
+      "gitBlobSha": "79d2f537c94e4e5fe1ed18a8410e3e02a756ec93"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-d-score.wav",
+      "local": "audio/voices/gostop-computer-d-score.wav",
+      "bytes": 228174,
+      "gitBlobSha": "ced4e8d1039a62e3b91e3be2acb5c00c3010def7"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-d-self-ppeok.wav",
+      "local": "audio/voices/gostop-computer-d-self-ppeok.wav",
+      "bytes": 177000,
+      "gitBlobSha": "45f163a1db8727bbd7e29183c99bcebc2911b821"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-d-stop.wav",
+      "local": "audio/voices/gostop-computer-d-stop.wav",
+      "bytes": 164908,
+      "gitBlobSha": "9f737b62d497bb48ef8bdc3d009976138cdc4179"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-d-sweep.wav",
+      "local": "audio/voices/gostop-computer-d-sweep.wav",
+      "bytes": 204578,
+      "gitBlobSha": "69a80b40942ef0b6222c14930c89625e125e8a32"
+    },
+    {
+      "source": "apps/web/public/audio/voices/gostop-computer-d-win.wav",
+      "local": "audio/voices/gostop-computer-d-win.wav",
+      "bytes": 252072,
+      "gitBlobSha": "e72d8c4e75ae9f7c3ae264a8548d40dea237a78b"
+    },
+    {
+      "source": "apps/web/public/audio/voices/lose.wav",
+      "local": "audio/voices/lose.wav",
+      "bytes": 78046,
+      "gitBlobSha": "31f1a0bcd15325bb30ffd399009b28dc5691e827"
+    },
+    {
+      "source": "apps/web/public/audio/voices/matgo-female-bonus-three.wav",
+      "local": "audio/voices/matgo-female-bonus-three.wav",
+      "bytes": 93646,
+      "gitBlobSha": "451ead998c26357f01bccbae67f751abc1bb65fa"
+    },
+    {
+      "source": "apps/web/public/audio/voices/matgo-female-bonus-two.wav",
+      "local": "audio/voices/matgo-female-bonus-two.wav",
+      "bytes": 92756,
+      "gitBlobSha": "4762a9e75b405f3b356664800f46a0a3adac617f"
+    },
+    {
+      "source": "apps/web/public/audio/voices/matgo-female-capture.wav",
+      "local": "audio/voices/matgo-female-capture.wav",
+      "bytes": 97600,
+      "gitBlobSha": "43ee5207ce3276585d8af9583b1d7568293ea429"
+    },
+    {
+      "source": "apps/web/public/audio/voices/matgo-female-go.wav",
+      "local": "audio/voices/matgo-female-go.wav",
+      "bytes": 88128,
+      "gitBlobSha": "e2409bd885ecddcc01791b446838bc17b77aed8b"
+    },
+    {
+      "source": "apps/web/public/audio/voices/matgo-female-ppeok-capture.wav",
+      "local": "audio/voices/matgo-female-ppeok-capture.wav",
+      "bytes": 119268,
+      "gitBlobSha": "d205f9ea85b8597deb4ab289c5d7551dc0823ee6"
+    },
+    {
+      "source": "apps/web/public/audio/voices/matgo-female-ppeok.wav",
+      "local": "audio/voices/matgo-female-ppeok.wav",
+      "bytes": 76686,
+      "gitBlobSha": "239f445fc1a255987a46cba03281a87452ac7c3f"
+    },
+    {
+      "source": "apps/web/public/audio/voices/matgo-female-score.wav",
+      "local": "audio/voices/matgo-female-score.wav",
+      "bytes": 100044,
+      "gitBlobSha": "601ccbaf0bb422208d6a38ec6ab6acbda1be1e99"
+    },
+    {
+      "source": "apps/web/public/audio/voices/matgo-female-self-ppeok.wav",
+      "local": "audio/voices/matgo-female-self-ppeok.wav",
+      "bytes": 98104,
+      "gitBlobSha": "5a4fbf7973af6622132b02ee39b0011b6f7703bb"
+    },
+    {
+      "source": "apps/web/public/audio/voices/matgo-female-stop.wav",
+      "local": "audio/voices/matgo-female-stop.wav",
+      "bytes": 111326,
+      "gitBlobSha": "b6ce02f251f4d03ca24b23faff734e117d6c14e0"
+    },
+    {
+      "source": "apps/web/public/audio/voices/matgo-female-sweep.wav",
+      "local": "audio/voices/matgo-female-sweep.wav",
+      "bytes": 127588,
+      "gitBlobSha": "f9da5a7968b00da33d78cb8616e9084d30114954"
+    },
+    {
+      "source": "apps/web/public/audio/voices/matgo-female-win.wav",
+      "local": "audio/voices/matgo-female-win.wav",
+      "bytes": 138938,
+      "gitBlobSha": "d3fb37a2bab485ec17cc50e6b89e71bf26a1b06b"
+    },
+    {
+      "source": "apps/web/public/audio/voices/nagari.wav",
+      "local": "audio/voices/nagari.wav",
+      "bytes": 110094,
+      "gitBlobSha": "0d7d224c60ff28c4ff534db4bcbe2434eccefd03"
+    },
+    {
+      "source": "apps/web/public/audio/voices/opponent-bomb.wav",
+      "local": "audio/voices/opponent-bomb.wav",
+      "bytes": 148212,
+      "gitBlobSha": "b719556381fa7f6890384f8aa5779a67706a0456"
+    },
+    {
+      "source": "apps/web/public/audio/voices/opponent-bonus-three.wav",
+      "local": "audio/voices/opponent-bonus-three.wav",
+      "bytes": 85450,
+      "gitBlobSha": "04433f22dd30a3b1113d32a1ef8efb8e9d7a8be6"
+    },
+    {
+      "source": "apps/web/public/audio/voices/opponent-bonus-two.wav",
+      "local": "audio/voices/opponent-bonus-two.wav",
+      "bytes": 79426,
+      "gitBlobSha": "594c4ca75dce3bcbda0df25bb9615319c3cf3ec6"
+    },
+    {
+      "source": "apps/web/public/audio/voices/opponent-capture.wav",
+      "local": "audio/voices/opponent-capture.wav",
+      "bytes": 106056,
+      "gitBlobSha": "4a4715a9fd19e7e2979848be7e35a6e5eb893f49"
+    },
+    {
+      "source": "apps/web/public/audio/voices/opponent-chongtong.wav",
+      "local": "audio/voices/opponent-chongtong.wav",
+      "bytes": 140854,
+      "gitBlobSha": "3167509ba96152fdf8a81b9af9ab5f45939044d1"
+    },
+    {
+      "source": "apps/web/public/audio/voices/opponent-go.wav",
+      "local": "audio/voices/opponent-go.wav",
+      "bytes": 124888,
+      "gitBlobSha": "5a89ce544f1937b15bbf47f198f859a1bdb11d13"
+    },
+    {
+      "source": "apps/web/public/audio/voices/opponent-jjok.wav",
+      "local": "audio/voices/opponent-jjok.wav",
+      "bytes": 82150,
+      "gitBlobSha": "7526cd72ba295930b89c4959861595907a26ac22"
+    },
+    {
+      "source": "apps/web/public/audio/voices/opponent-mission.wav",
+      "local": "audio/voices/opponent-mission.wav",
+      "bytes": 151096,
+      "gitBlobSha": "5820d9a3a11c72988356e70be3c9fc7e27d1da61"
+    },
+    {
+      "source": "apps/web/public/audio/voices/opponent-pee-transfer.wav",
+      "local": "audio/voices/opponent-pee-transfer.wav",
+      "bytes": 69686,
+      "gitBlobSha": "ad55c3b437b1b0483388e07c1cfdcadfa7714234"
+    },
+    {
+      "source": "apps/web/public/audio/voices/opponent-ppeok-capture.wav",
+      "local": "audio/voices/opponent-ppeok-capture.wav",
+      "bytes": 116342,
+      "gitBlobSha": "3d4e9a7c0cee74e9541bd360cc0affbf4606ce12"
+    },
+    {
+      "source": "apps/web/public/audio/voices/opponent-ppeok.wav",
+      "local": "audio/voices/opponent-ppeok.wav",
+      "bytes": 79060,
+      "gitBlobSha": "41ed13d355c87ab6edb1a7bb471b7f37187a20b5"
+    },
+    {
+      "source": "apps/web/public/audio/voices/opponent-score.wav",
+      "local": "audio/voices/opponent-score.wav",
+      "bytes": 106272,
+      "gitBlobSha": "fdcf36362a777552dfa01c55a74d3aa2a4cf0944"
+    },
+    {
+      "source": "apps/web/public/audio/voices/opponent-self-ppeok.wav",
+      "local": "audio/voices/opponent-self-ppeok.wav",
+      "bytes": 121552,
+      "gitBlobSha": "0d4e5d8e2b243259af6d0dea70c9b02d489fbb99"
+    },
+    {
+      "source": "apps/web/public/audio/voices/opponent-stop.wav",
+      "local": "audio/voices/opponent-stop.wav",
+      "bytes": 101500,
+      "gitBlobSha": "3e93c30f8494cc478d65c2317791da665fe4b20f"
+    },
+    {
+      "source": "apps/web/public/audio/voices/opponent-sweep.wav",
+      "local": "audio/voices/opponent-sweep.wav",
+      "bytes": 105378,
+      "gitBlobSha": "8c4ddf5cf14945e379b971c7216d65db483e6384"
+    },
+    {
+      "source": "apps/web/public/audio/voices/opponent-ttadak.wav",
+      "local": "audio/voices/opponent-ttadak.wav",
+      "bytes": 104408,
+      "gitBlobSha": "00c44c53cae0ba50ecedbd74b2f554e23d64be3f"
+    },
+    {
+      "source": "apps/web/public/audio/voices/player-bomb.wav",
+      "local": "audio/voices/player-bomb.wav",
+      "bytes": 102484,
+      "gitBlobSha": "d865936b7b2df50ddc04dff621db670092f261b5"
+    },
+    {
+      "source": "apps/web/public/audio/voices/player-bonus-three.wav",
+      "local": "audio/voices/player-bonus-three.wav",
+      "bytes": 97852,
+      "gitBlobSha": "f9b48ed20895a45c4f6e81a8aeb63cce2ffebb93"
+    },
+    {
+      "source": "apps/web/public/audio/voices/player-bonus-two.wav",
+      "local": "audio/voices/player-bonus-two.wav",
+      "bytes": 88964,
+      "gitBlobSha": "a301a78caa25e4c943bce142b76fd696196a3f64"
+    },
+    {
+      "source": "apps/web/public/audio/voices/player-capture.wav",
+      "local": "audio/voices/player-capture.wav",
+      "bytes": 75200,
+      "gitBlobSha": "2162e7838b922e63005782c08fe1ccd5f083eadf"
+    },
+    {
+      "source": "apps/web/public/audio/voices/player-chongtong.wav",
+      "local": "audio/voices/player-chongtong.wav",
+      "bytes": 99416,
+      "gitBlobSha": "7ecf774fc33a76fc555c9894e852391e3f059d3a"
+    },
+    {
+      "source": "apps/web/public/audio/voices/player-go.wav",
+      "local": "audio/voices/player-go.wav",
+      "bytes": 57412,
+      "gitBlobSha": "121dc9b46b42ca1e8e141741958b0d6625b74b63"
+    },
+    {
+      "source": "apps/web/public/audio/voices/player-jjok.wav",
+      "local": "audio/voices/player-jjok.wav",
+      "bytes": 81978,
+      "gitBlobSha": "bd0969bf858b2ca4df1c83f7ee33626aa0554250"
+    },
+    {
+      "source": "apps/web/public/audio/voices/player-mission.wav",
+      "local": "audio/voices/player-mission.wav",
+      "bytes": 139072,
+      "gitBlobSha": "f9d469e572c5adb1220dfcea20ba8a3a206b966f"
+    },
+    {
+      "source": "apps/web/public/audio/voices/player-pee-transfer.wav",
+      "local": "audio/voices/player-pee-transfer.wav",
+      "bytes": 87326,
+      "gitBlobSha": "acd5e244d18840db7c9e1a9d666a3a9d80fb547f"
+    },
+    {
+      "source": "apps/web/public/audio/voices/player-ppeok-capture.wav",
+      "local": "audio/voices/player-ppeok-capture.wav",
+      "bytes": 95682,
+      "gitBlobSha": "1e04501681cac4d864075abfe3b72be1b4c860a7"
+    },
+    {
+      "source": "apps/web/public/audio/voices/player-ppeok.wav",
+      "local": "audio/voices/player-ppeok.wav",
+      "bytes": 67648,
+      "gitBlobSha": "2acd134a6d97778e6d15d87174ebdda16dee62bf"
+    },
+    {
+      "source": "apps/web/public/audio/voices/player-score.wav",
+      "local": "audio/voices/player-score.wav",
+      "bytes": 107554,
+      "gitBlobSha": "efcf3e36bdca6b00736ae8a198ca2eea53d3bf99"
+    },
+    {
+      "source": "apps/web/public/audio/voices/player-self-ppeok.wav",
+      "local": "audio/voices/player-self-ppeok.wav",
+      "bytes": 91064,
+      "gitBlobSha": "e0150826e0f8d422dff3e39028247bc30e8d4a0d"
+    },
+    {
+      "source": "apps/web/public/audio/voices/player-stop.wav",
+      "local": "audio/voices/player-stop.wav",
+      "bytes": 72298,
+      "gitBlobSha": "bd8094661f838ecab222476b925b53317e2e943c"
+    },
+    {
+      "source": "apps/web/public/audio/voices/player-sweep.wav",
+      "local": "audio/voices/player-sweep.wav",
+      "bytes": 81410,
+      "gitBlobSha": "20f1a457a3e13b5c40437badc64bbeacbd53d394"
+    },
+    {
+      "source": "apps/web/public/audio/voices/player-ttadak.wav",
+      "local": "audio/voices/player-ttadak.wav",
+      "bytes": 106494,
+      "gitBlobSha": "a266656321858a46a5fd78b4938b51360be9e4f5"
+    },
+    {
+      "source": "apps/web/public/audio/voices/shake.wav",
+      "local": "audio/voices/shake.wav",
+      "bytes": 105782,
+      "gitBlobSha": "a1dd7579e0a7649e385994bc92fd9713487b40b1"
+    },
+    {
+      "source": "apps/web/public/audio/voices/start.wav",
+      "local": "audio/voices/start.wav",
+      "bytes": 108964,
+      "gitBlobSha": "a378777e97ed64476f4104c8b06fa2844da0ead7"
+    },
+    {
+      "source": "apps/web/public/audio/voices/triple-ppeok.wav",
+      "local": "audio/voices/triple-ppeok.wav",
+      "bytes": 107320,
+      "gitBlobSha": "ed531aa734c1f33018d40d51aa0b5f3ba8590a1f"
+    },
+    {
+      "source": "apps/web/public/audio/voices/undo.wav",
+      "local": "audio/voices/undo.wav",
+      "bytes": 85060,
+      "gitBlobSha": "9544e8db6100b60e1c50433521e8d3be480fac56"
+    },
+    {
+      "source": "apps/web/public/audio/voices/verification.json",
+      "local": "audio/voices/verification.json",
+      "bytes": 25025,
+      "gitBlobSha": "1d7c7b7bf82462946d38a77861e6ac79b2a21729"
+    },
+    {
+      "source": "apps/web/public/audio/voices/win.wav",
+      "local": "audio/voices/win.wav",
+      "bytes": 76324,
+      "gitBlobSha": "d32a6e1acf740eff6c434761e2f26e1c72b72664"
+    },
+    {
+      "source": "apps/web/public/audio/wood-block.mp3",
+      "local": "audio/wood-block.mp3",
+      "bytes": 9604,
+      "gitBlobSha": "6b4cefa6c6b16901dbbf56d2e5320f6526038d5c"
+    },
+    {
+      "source": "licenses/BigScience-OpenRAIL-M.txt",
+      "local": "licenses/BigScience-OpenRAIL-M.txt",
+      "bytes": 15007,
+      "gitBlobSha": "1e2cbe6cef94c8cdf3ed1fcebc0f5317ca7ad5a1"
+    },
+    {
+      "source": "LICENSE",
+      "local": "licenses/Hwatu-MIT.txt",
+      "bytes": 1082,
+      "gitBlobSha": "1164ee77136fe2a5e94ef8a81f36799a54bfaf43"
+    },
+    {
+      "source": "THIRD_PARTY_NOTICES.md",
+      "local": "THIRD_PARTY_NOTICES.md",
+      "bytes": 10883,
+      "gitBlobSha": "6b58b0da39b2eac3c226957fccfa2894cd94b073"
+    }
+  ]
+}

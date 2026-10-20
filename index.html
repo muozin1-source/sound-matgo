@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#123c32">
+  <meta name="description" content="VoiceOver로 즐기는 컴퓨터 대전 소리 맞고. 손패는 아래에, 안내는 짧게.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="소리 맞고">
+  <title>소리 맞고</title>
+  <link rel="icon" type="image/svg+xml" href="icon.svg">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <main class="table" aria-label="소리 맞고">
+    <header class="topbar"><div class="brand"><span aria-hidden="true" class="brand-mark">花</span><h1>소리 맞고</h1></div><button type="button" id="menu">메뉴</button></header>
+    <section class="scorebar" aria-label="점수와 차례"><span id="human-score">나 0점</span><span id="turn">준비</span><span id="computer-score">상대 0점</span></section>
+    <section class="floor-area" aria-labelledby="floor-title"><div class="section-line"><h2 id="floor-title">바닥패</h2><span id="draw-count">더미 0장</span></div><div class="floor-grid" id="floor"></div></section>
+    <section class="message-area" aria-label="최근 진행"><p id="message">아래 손패에서 낼 패를 두 번 탭하세요.</p><button id="repeat" type="button" aria-label="최근 진행 다시 듣기">다시 듣기</button></section>
+    <nav class="tools" aria-label="패 현황과 특수 행동"><button id="mine" type="button">내 현황</button><button id="theirs" type="button">상대 현황</button><button id="special" type="button">특수</button></nav>
+    <section class="hand-area" aria-labelledby="hand-title"><div class="section-line"><h2 id="hand-title">내 손패</h2><span id="hand-count">10장 · 월순</span></div><div id="hand" class="hand-grid"></div></section>
+  </main>
+  <p class="sr-only" id="live" role="status" aria-live="polite" aria-atomic="true"></p>
+  <dialog id="panel" aria-labelledby="panel-title"><div class="dialog-head"><h2 id="panel-title" tabindex="-1"></h2><button id="panel-close" type="button">닫기</button></div><div id="panel-body"></div><p id="panel-live" role="status" aria-live="polite" aria-atomic="true"></p></dialog>
+  <noscript>소리 맞고를 이용하려면 JavaScript를 허용해 주세요.</noscript>
+</body>
+</html>
